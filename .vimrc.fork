@@ -1,0 +1,8 @@
+set mouse=
+set wrap
+set wrapscan
+set nofoldenable
+set fileencoding=utf-8
+set fileencodings=utf-8,gb18030
+set encoding=utf-8
+let g:DisableAutoPHPFolding = 1
