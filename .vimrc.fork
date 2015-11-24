@@ -6,3 +6,18 @@ set fileencoding=utf-8
 set fileencodings=utf-8,gb18030
 set encoding=utf-8
 let g:DisableAutoPHPFolding = 1
+
+" vim-go
+au FileType go nmap <leader>gor <Plug>(go-run)
+au FileType go nmap <leader>gob <Plug>(go-build)
+au FileType go nmap <leader>got <Plug>(go-test)
+au FileType go nmap <leader>goc <Plug>(go-coverage)
+au FileType go nmap <Leader>ds <Plug>(go-def-split)
+au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
+au FileType go nmap <Leader>dt <Plug>(go-def-tab)
+au FileType go nmap <Leader>d <Plug>(go-doc)
+au FileType go nmap <Leader>dv <Plug>(go-doc-vertical)
+au FileType go nmap <Leader>db <Plug>(go-doc-browser)
+au FileType go nmap <Leader>s <Plug>(go-implements)
+au FileType go nmap <Leader>i <Plug>(go-info)
+au FileType go nmap <Leader>e <Plug>(go-rename)
