@@ -717,8 +717,8 @@
             let g:ycm_collect_identifiers_from_tags_files = 1
 
             " remap Ultisnips for compatibility for YCM
-            let g:UltiSnipsExpandTrigger = '<C-j>'
-            let g:UltiSnipsJumpForwardTrigger = '<C-j>'
+            let g:UltiSnipsExpandTrigger = '<C-k>'
+            let g:UltiSnipsJumpForwardTrigger = '<Tab>'
             let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 
             " Enable omni completion.
