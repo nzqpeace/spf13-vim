@@ -1,3 +1,6 @@
 Bundle 'fatih/vim-go'
 Bundle 'nsf/gocode'
-
+Bundle 'klen/python-mode'
+Bundle 'rdnetto/YCM-Generator'
+Bundle 'wakatime/vim-wakatime'
+Bundle 'rking/ag.vim'
