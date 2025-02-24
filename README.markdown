@@ -74,7 +74,7 @@ After installation try running `git --version` within _command prompt_ (press Wi
     git version 1.7.4.msysgit.0
 
 #### Setup [Curl]
-_Instructions blatently copied from vundle readme_
+_Instructions blatantly copied from vundle readme_
 Installing Curl on Windows is easy as [Curl] is bundled with [msysgit]!
 But before it can be used with [Vundle] it's required make `curl` run in _command prompt_.
 The easiest way is to create `curl.cmd` with [this content](https://gist.github.com/912993)
@@ -108,7 +108,7 @@ to verify all good, run:
 The easiest way is to download and run the spf13-vim-windows-install.cmd file. Remember to run this file in **Administrator Mode** if you want the symlinks to be created successfully.
 
 ## Updating to the latest version
-The simpliest (and safest) way to update is to simply rerun the installer. It will completely and non destructively upgrade to the latest version.
+The simplest (and safest) way to update is to simply rerun the installer. It will completely and non destructively upgrade to the latest version.
 
 ```bash
 
@@ -137,7 +137,7 @@ Each section is labeled and each option is commented.
 
 It fixes many of the inconveniences of vanilla vim including
 
- * A single config can be used across Windows, Mac and linux
+ * A single config can be used across Windows, Mac and Linux
  * Eliminates swap and backup files from littering directories, preferring to store in a central location.
  * Fixes common typos like :W, :Q, etc
  * Setup a solid set of settings for Formatting (change to meet your needs)
@@ -165,7 +165,7 @@ For example, to override the default color schemes:
 Create a `~/.vimrc.before.local` file to define any customizations
 that get loaded *before* the spf13-vim `.vimrc`.
 
-For example, to prevent autocd into a file directory:
+For example, to prevent auto cd-ing into a file directory:
 ```bash
     echo let g:spf13_no_autochdir = 1 >> ~/.vimrc.before.local
 ```
@@ -264,7 +264,7 @@ Combined with persistent undo, this is nearly as flexible and safe as git ;-)
 
 Undotree makes that feature more accessible by creating a visual representation of said undo-tree.
 
-**QuickStart** Launch using `<Leader>u`.
+**Quick Start** Launch using `<Leader>u`.
 
 ## [NERDTree]
 
@@ -272,7 +272,7 @@ NERDTree is a file explorer plugin that provides "project drawer"
 functionality to your vim editing.  You can learn more about it with
 `:help NERDTree`.
 
-**QuickStart** Launch using `<Leader>e`.
+**Quick Start** Launch using `<Leader>e`.
 
 **Customizations**:
 
@@ -284,7 +284,7 @@ functionality to your vim editing.  You can learn more about it with
 ## [ctrlp]
 Ctrlp replaces the Command-T plugin with a 100% viml plugin. It provides an intuitive and fast mechanism to load files from the file system (with regex and fuzzy find), from open buffers, and from recently used files.
 
-**QuickStart** Launch using `<c-p>`.
+**Quick Start** Launch using `<c-p>`.
 
 ## [Surround]
 
@@ -313,13 +313,13 @@ There's a lot more, check it out at `:help surround`
 NERDCommenter allows you to wrangle your code comments, regardless of
 filetype. View `help :NERDCommenter` or checkout my post on [NERDCommenter](http://spf13.com/post/vim-plugins-nerd-commenter).
 
-**QuickStart** Toggle comments using `<Leader>c<space>` in Visual or Normal mode.
+**Quick Start** Toggle comments using `<Leader>c<space>` in Visual or Normal mode.
 
 ## [neocomplete]
 
-Neocomplete is an amazing autocomplete plugin with additional support for snippets. It can complete simulatiously from the dictionary, buffer, omnicomplete and snippets. This is the one true plugin that brings Vim autocomplete on par with the best editors.
+Neocomplete is an amazing autocomplete plugin with additional support for snippets. It can complete simultaneously from the dictionary, buffer, omnicomplete and snippets. This is the one true plugin that brings Vim autocomplete on par with the best editors.
 
-**QuickStart** Just start typing, it will autocomplete where possible
+**Quick Start** Just start typing, it will autocomplete where possible
 
 **Customizations**:
 
@@ -357,8 +357,8 @@ execute their script to find them.
 ## [AutoClose]
 
 AutoClose does what you expect. It's simple, if you open a bracket, paren, brace, quote,
-etc, it automatically closes it. It handles curlys correctly and doesn't get in the
-way of double curlies for things like jinja and twig.
+etc, it automatically closes it. It handles curly brackets correctly and doesn't get in the
+way of double curly brackets for things like jinja and twig.
 
 ## [Fugitive]
 
@@ -372,7 +372,7 @@ hunks in the file.
 Use `:Gdiff` on an open file to see what changes have been made to that
 file
 
-**QuickStart** `<leader>gs` to bring up git status
+**Quick Start** `<leader>gs` to bring up git status
 
 **Customizations**:
 
@@ -399,14 +399,14 @@ PIV provides:
  * Better indenting
  * Full PHP documentation manual (hit K on any function for full docs)
 
-![php vim itegration image][phpmanual-img]
+![php vim integration image][phpmanual-img]
 
 ## [Ack.vim]
 
 Ack.vim uses ack to search inside the current directory for a pattern.
 You can learn more about it with `:help Ack`
 
-**QuickStart** :Ack
+**Quick Start** :Ack
 
 ## [Tabularize]
 
@@ -424,7 +424,7 @@ Tabularize lets you align statements on their equal signs and other characters
 
 spf13-vim includes the Tagbar plugin. This plugin requires exuberant-ctags and will automatically generate tags for your open files. It also provides a panel to navigate easily via tags
 
-**QuickStart** `CTRL-]` while the cursor is on a keyword (such as a function name) to jump to its definition.
+**Quick Start** `CTRL-]` while the cursor is on a keyword (such as a function name) to jump to its definition.
 
 **Customizations**: spf13-vim binds `<Leader>tt` to toggle the tagbar panel
 
@@ -445,7 +445,7 @@ EasyMotion provides an interactive way to use motions in Vim.
 It quickly maps each possible jump destination to a key allowing very fast and
 straightforward movement.
 
-**QuickStart** EasyMotion is triggered using the normal movements, but prefixing them with `<leader><leader>`
+**Quick Start** EasyMotion is triggered using the normal movements, but prefixing them with `<leader><leader>`
 
 For example this screen shot demonstrates pressing `,,w`
 
@@ -453,7 +453,7 @@ For example this screen shot demonstrates pressing `,,w`
 
 ## [Airline]
 
-Airline provides a lightweight themable statusline with no external dependencies. By default this configuration uses the symbols `‹` and `›` as separators for different statusline sections but can be configured to use the same symbols as [Powerline]. An example first without and then with powerline symbols is shown here:
+Airline provides a lightweight theme-able status-line with no external dependencies. By default this configuration uses the symbols `‹` and `›` as separators for different statusline sections but can be configured to use the same symbols as [Powerline]. An example first without and then with powerline symbols is shown here:
 
 ![airline image][airline-img]
 
